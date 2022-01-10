@@ -6,8 +6,19 @@ public class MoveLeft : MonoBehaviour
 {
     private float speed = 10f;
 
+    private PlayerController playerControllerScript;
+
+    private void Start()
+    {
+        //playerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
+        playerControllerScript = FindObjectOfType<PlayerController>();
+    }
+
     void Update()
     {
-        transform.Translate(Vector3.left * speed * Time.deltaTime);
+        if (!playerControllerScript.gameOver)
+        {
+            transform.Translate(Vector3.left * speed * Time.deltaTime);
+        }
     }
 }
