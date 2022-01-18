@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8896562964488875696}
   - component: {fileID: 8896562964488875699}
   - component: {fileID: 8896562964488875697}
-  - component: {fileID: -1720424768689956366}
+  - component: {fileID: -4191943015195431164}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Obstacle
@@ -62,8 +62,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5885296, y: 1.9539037, z: 3.1196997}
-  m_Center: {x: 0.0000009536743, y: 0.9632361, z: -0.006234288}
+  m_Size: {x: 0.5885296, y: 1.6904292, z: 3.1196997}
+  m_Center: {x: 0.0000009536743, y: 0.83149886, z: -0.006234288}
 --- !u!114 &8896562964488875697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7fc6c2e0c5c85f4ab02388614b662e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-1720424768689956366
+--- !u!114 &-4191943015195431164
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -85,10 +85,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8896562964488986759}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60a6c03b918188b49bd80a627a95f481, type: 3}
+  m_Script: {fileID: 11500000, guid: 36fdc41d395c7324695063cc14cfe3fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTime: 5
 --- !u!1 &8896562964488986761
 GameObject:
   m_ObjectHideFlags: 0
